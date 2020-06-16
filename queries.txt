@@ -1,0 +1,30 @@
+Which of the following is a component of a "Computer System"? personnel;network;input;power
+Which of the following is not a mechanical keyboard switch manufacturing and design company? microsoft;drop;apple;gateron
+What is the expanded form of the acronym "iRFID"? integrated radio frequency identification;internal radio frequency identifing device;intelligent read frequency identification;infrared identification
+An example of a peripheral device is? esata drive;ram;cpu;m.2 drive
+What is Packaged Software? general software that is readily available;software that is custom designed;software that comes in a box;multiple software combined together
+What is a Software Package? multiple software combined together;software that is custom designed;software that comes in a box;general software that is readily available
+Which of the following is a low level language? g-code;python;libertybasic;declarative
+What is the key benefit of high level language? It allows programmers to focus on solving problems and not the fine details of the language itself;it allows people to learn a language;To develop a software easily;To allow programmers to select different languages depending on their skills.
+What is an example of a compiler? Source code is translated to binary machine code, sent to consumer, decodes, runs the program;Source code is sent to consumer, consumer decodes source code and runs the program;Machine code is sent to consumer, reads, runs the program;Source code is sent to consumer, reads, runs the program
+The main job of a OS is? Manage the hardware & software resources of the computer system;Run software;Boot the computer system up;Run the CPU, RAM, GPU
+The Fetch Execute Cycle is related to? CPU;GPU;Computer system;Motherboard
+The Cycle is broken into 2 sections, these are? I and E-time;I and F-time;F and E-time;F and P-time
+How many bits per pixel is assigned for colour in a VGA signal? 8;16;4;2
+Which of the following is not the name of a corona wire in a laser printer? Ionising;Detac;Transfer;Charge
+Which of the following is a form of data storage that has been developed past the feasibility test stage? Rope coil memory;metal-sulfate semiconductor memory;In vivo CRISPR CAS9 molecular recorders;blockchain data storage.
+Which of the following is the shape of the tracks on a CD-ROM? spirals;parabolas;random;circles
+How many bits are encoded onto a CD-ROM? 14;16;8;4
+Approximately how many transistors are in a Pentium 4 processor? 42 Million;45 Million;32 Million; 35 Million
+Which of the following is not a implementation of von Neumann architecture? IISC;CISC;RISC;OISC/URISC
+Which of the following is not an example of a hazard in the instruction pipeline in CPU microarchitecture? Pipeline stall;data dependency;false sharing;race conditions
+Which of the following is not an example of a hardware accelerator microprocessor? ASIC;Tensor processing unit (TPU);Cryptoprocessor;NE555;
+Which of the following is not a category of processor based on the number or type of cores? asymmetric;single-core;multi-core;heterogeneous
+Which of the following is not a form of a SoC architecture? ISoC;MPSoC;PSoC;NoC
+Which of the following is not a component of a CPU? TEB;FPU;ALU;MMU
+Which of the following is the MOSFET scaling that is scheduled to be successfully demonstrated in 2020? 5nm;7nm;3nm;1nm
+Which of the following is not a form of metal oxide semiconductor? GMOS;CMOS;PMOS;NMOS
+Where was the first metal oxide silicon field effect transistors fabricated? Bell Labs;Knolls Atomic Power Laboratory;Fairchild Semiconductor;RCA
+Which of the following is not a form of logic within a CPU? Constructive;Glue;Combinational;Sequential
+Why are FPGAs used? FPGAs can be reprogrammed to accomplish various tasks faster than a RISC module but slower than a dedicated ASIC circuit;FPGAs have permanent circuits drawn into the silicon to accomplish the required task, whereas ASICs work via connecting modules and thus its use cases are narrower;In comparison to ASICs, CPUs and FPGA modules can have a much lower execution time due to their optimised hardware configuration;FPGAs are significantly more energy efficient than ASICs for the same compute power.
+What was the clock speed of the first intel microprocessor? 740kHz;74kHz;7.4MHz;74MHz
