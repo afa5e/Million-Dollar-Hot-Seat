@@ -57,5 +57,6 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
   The term "pixel" is an abbreviation of?|picture element
   The theory that processing power would double every 18 months is called?|Moore's law
   The rate that the fetch-execute cycle occurs is governed by which system or entity?|System clock
+  How many cores are there in a 6th Gen i5 CPU?|Ranging from 2-4
 
   [Return to the top.](#million-dollar-hot-seat)
