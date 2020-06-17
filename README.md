@@ -5,7 +5,7 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
 1. [Installation instructions](##installation-and-executing)
 1. [Answer Key](##answer-key)
 
-## Installation and Executing
+## Installation and Executing <a href="#million-dollar-hot-seat">Top</a>
 <div align="right" style = "position:relative; top:-55px;">
   <a href="#million-dollar-hot-seat"> Top</a>
 </div>
@@ -66,3 +66,4 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
   The term "pixel" is an abbreviation of?|picture element
   The theory that processing power would double every 18 months is called?|Moore's law
   The rate that the fetch-execute cycle occurs is governed by which system or entity?|system clock
+</div>
