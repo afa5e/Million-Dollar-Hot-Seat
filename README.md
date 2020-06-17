@@ -5,7 +5,7 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
 1. [Installation instructions](##installation-and-executing)
 1. [Answer Key](##answer-key)
 
-## Installation and Executing <a href="#million-dollar-hot-seat">Top</a>
+## Installation and Executing <a href="#million-dollar-hot-seat"  align="right">Top</a>
 <div align="right" style = "position:relative; top:-55px;">
   <a href="#million-dollar-hot-seat"> Top</a>
 </div>
@@ -19,7 +19,7 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
     * Simultaneously press ```shift``` and ```F5```.
 </div>
 
-## Answer key
+## Answer key <a href="#million-dollar-hot-seat"  align="right"><small>Top</small></a>
 <div align="right" style = "position:relative; top:-55px;">
   <a href="#million-dollar-hot-seat"> Top</a>
 </div>
