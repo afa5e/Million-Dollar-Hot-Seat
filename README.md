@@ -39,7 +39,7 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
   Which of the following is not a implementation of von Neumann architecture?|IISC
   Which of the following is not an example of a hazard in the instruction pipeline in CPU microarchitecture?|Pipeline stall
   Which of the following is not an example of a hardware accelerator microprocessor?|ASIC
-  Which of the following is not a valid category of processor based on the number or type of cores?|asymmetric
+  Which of the following is not a valid category of processor based on the number or type of cores?|Asymmetric
   Which of the following is not a form of a SoC architecture?|ISoC
   Which of the following is not a component of a CPU?|TEB
   Which of the following is the MOSFET scaling that is scheduled to be successfully demonstrated in 2020?|5nm
@@ -56,6 +56,6 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
   Which of the following is not a valid example of a boolean operation?|x~~y
   The term "pixel" is an abbreviation of?|picture element
   The theory that processing power would double every 18 months is called?|Moore's law
-  The rate that the fetch-execute cycle occurs is governed by which system or entity?|system clock
+  The rate that the fetch-execute cycle occurs is governed by which system or entity?|System clock
 
   [Return to the top.](#million-dollar-hot-seat)

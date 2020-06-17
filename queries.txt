@@ -12,14 +12,14 @@ The Fetch Execute Cycle is related to? CPU;GPU;Computer system;Motherboard
 The Fetch Execute Cycle is broken into 2 sections, these are? I and E-time;I and F-time;F and E-time;F and P-time
 How many bits per pixel is assigned for colour in a VGA signal? 8;16;4;2
 Which of the following is not the name of a corona wire in a laser printer? Ionising;Detac;Transfer;Charge
-Which of the following is a form of data storage that has been developed past the feasibility test stage? Rope coil memory;metal-sulfate semiconductor memory;In vivo CRISPR CAS9 molecular recorders;blockchain data storage.
+Which of the following is a form of data storage that has been developed past the feasibility test stage? Rope coil memory;metal-sulfate semiconductor memory;In vivo CRISPR CAS9 molecular recorders;high volume, long term blockchain data storage.
 Which of the following is the shape of the tracks on a CD-ROM? spirals;parabolas;random;circles
 How many bits are encoded onto a CD-ROM? 14;16;8;4
 Approximately how many transistors are in a Pentium 4 processor? 42 Million;45 Million;32 Million; 35 Million
 Which of the following is not a implementation of von Neumann architecture? IISC;CISC;RISC;OISC/URISC
 Which of the following is not an example of a hazard in the instruction pipeline in CPU microarchitecture? Pipeline stall;data dependency;false sharing;race conditions
 Which of the following is not an example of a hardware accelerator microprocessor? ASIC;Tensor processing unit (TPU);Cryptoprocessor;NE555;
-Which of the following is not a valid category of processor based on the number or type of cores? asymmetric;single-core;multi-core;heterogeneous
+Which of the following is not a valid category of processor based on the number or type of cores? Asymmetric;Single-core;Multi-core;Heterogeneous
 Which of the following is not a form of a SoC architecture? ISoC;MPSoC;PSoC;NoC
 Which of the following is not a component of a CPU? TEB;FPU;ALU;MMU
 Which of the following is the MOSFET scaling that is scheduled to be successfully demonstrated in 2020? 5nm;7nm;3nm;1nm
@@ -34,6 +34,6 @@ Which of the following may cause "Spaghetti code"? GOTO;Pre-test loops;Post-test
 Which of the following is not used as a symbol in flowcharts? Pentagon;Rectangle;Round-Rect;Diamond
 Which of the following is not a logic operator? ~=;!=;==;<=
 Which of the following is not a valid example of a boolean operation? x~~y;x&&y;x||y;!x
-The term "pixel" is an abbreviation of? picture element;picture resolution;photo element;pattern element
+The term "pixel" is an abbreviation of? Picture element;Picture resolution;Photo element;Pattern element
 The theory that processing power would double every 18 months is called? Moore's law;Murphy's Law;Gates'Law;Jobs' law
-The rate that the fetch-execute cycle occurs is governed by which system or entity? system clock;ALU;accumulator;user
+The rate that the fetch-execute cycle occurs is governed by which component or entity? System clock;ALU;Accumulator;UNIX Time
