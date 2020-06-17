@@ -16,7 +16,7 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
     * Simultaneously press ```shift``` and ```F5```.
 </div>
 
-## Answer key -> <a href="#million-dollar-hot-seat"  align="justify"><small>Top</small></a> <-
+## Answer key <a href="#million-dollar-hot-seat"  style="direction:rtl"><small>Top</small></a>
 
   Question|Answer
   --------|------
