@@ -2,13 +2,10 @@
 Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design and Development Individual Programming task.
 
 ## Contents
-1. [Installation instructions](##installation-and-executing)
-1. [Answer Key](##answer-key)
+1. [Installation instructions](##installation-and-executing-top)
+1. [Answer Key](##answer-key-top)
 
 ## Installation and Executing <a href="#million-dollar-hot-seat"  align="right">Top</a>
-<div align="right" style = "position:relative; top:-55px;">
-  <a href="#million-dollar-hot-seat"> Top</a>
-</div>
 <div style = "position:relative; top:-25px;">
 
   To run the Million Dollar Hot Seat program:
@@ -20,10 +17,6 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
 </div>
 
 ## Answer key <a href="#million-dollar-hot-seat"  align="right"><small>Top</small></a>
-<div align="right" style = "position:relative; top:-55px;">
-  <a href="#million-dollar-hot-seat"> Top</a>
-</div>
-<div style = "position:relative; top:-25px;">
 
   Question|Answer
   --------|------
