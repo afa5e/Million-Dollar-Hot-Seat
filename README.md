@@ -6,18 +6,16 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
 1. [Answer Key](#answer-key)
 
 ## Installation and Executing
-<div style = "position:relative; top:-25px;">
-
   To run the Million Dollar Hot Seat program:
   1. Download the free version Liberty Basic from [here](https://www.libertybasic.com/download.html) and install with default settings.
   1. Open the ```main.bas``` file with the Liberty Basic editor and after waiting for the advertisement to close, and either:
     * Move the mouse over to the blue triangle approximately 9 icons to the right of the screen.
     * Select "Run" from the menu bar and then select "Run" from the dropdown menu.
     * Simultaneously press ```shift``` and ```F5```.
-</div>
+
+[Return to the top.](#million-dollar-hot-seat)
 
 ## Answer key
-
   Question|Answer
   --------|------
   Which of the following is a component of a "Computer System"?|Personnel
@@ -59,4 +57,5 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
   The term "pixel" is an abbreviation of?|picture element
   The theory that processing power would double every 18 months is called?|Moore's law
   The rate that the fetch-execute cycle occurs is governed by which system or entity?|system clock
-</div>
+
+  [Return to the top.](#million-dollar-hot-seat)
