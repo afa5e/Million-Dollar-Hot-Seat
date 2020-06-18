@@ -37,4 +37,4 @@ Which of the following is not a valid example of a boolean operation? x~~y;x&&y;
 The term "pixel" is an abbreviation of? Picture element;Picture resolution;Photo element;Pattern element\n
 The theory that processing power would double every 18 months is called? Moore's law;Murphy's Law;Gates'Law;Jobs' law\n
 The rate that the fetch-execute cycle occurs is governed by which component or entity? System clock;ALU;Accumulator;UNIX Time\n
-How many cores are there in a 6th Gen i5 CPU? Ranging from 2-4;2;4;1\n
+How many cores are there in a i5 CPU? 5;2;4;3\n
