@@ -7,6 +7,7 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
 1. [License](#License)
 1. [Installation instructions](#installation-and-executing)
 1. [Answer Key](#answer-key)
+1. [Issues](#issues)
 
 ## License
 The following is a summary of the full do what ~~the fuck~~ you want to but with conditions public license. For the full license, please view the license file [here](/LICENSE)
@@ -81,5 +82,10 @@ The following is a summary of the full do what ~~the fuck~~ you want to but with
   The theory that processing power would double every 18 months is called?|Moore's law
   The rate that the fetch-execute cycle occurs is governed by which system or entity?|System clock
   How many cores are there in a 6th Gen i5 CPU?|5
+
+  [Return to the top.](#million-dollar-hot-seat)
+
+## Issues
+  If you have a problem with this tool, please file an issue on Github [here](https://github.com/afa5e/Million-Dollar-Hot-Seat/issues) after checking the logs for your issue. If you have other problems with the software, you can contact Customer Support on 04~~REDACTED~~
 
   [Return to the top.](#million-dollar-hot-seat)
