@@ -2,12 +2,33 @@
 Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design and Development Individual Programming task.
 
 ## Contents
+1. [License](#License)
 1. [Installation instructions](#installation-and-executing)
 1. [Answer Key](#answer-key)
 
+## License
+The following is a summary of the full do what the fuck you want to but with conditions public license. For the full license, please view the license file [here](github.com/afa5e/Million-Dollar-Hot-Seat/blob/master/LICENSE)
+
+1. Viewing, opening or otherwise allowing the contents of any
+  files, in any form, to be transferred, copied, paraphrased
+  or otherwise give any entity knowledge of the contents,
+  excluding the README.md and LICENSE file, is NOT allowed
+  without prior written consent by the author.
+
+1. The software must not be used in any form for any purposes,
+  including but is not limited to educational purposes; without
+  prior written consent from the author.
+
+1. To read, paraphrase, copy, transmit, retransmit, download, fax,
+  fork or otherwise make or distribute a copy of the source code or
+  other material covered by this license is not allowed without
+  prior written consent from the author.
+
+[Return to the top.](#million-dollar-hot-seat)
+
 ## Installation and Executing
   To run the Million Dollar Hot Seat program:
-  1. Download the free version Liberty Basic from [here](https://www.libertybasic.com/download.html) and install with default settings.
+  1. Download the free version of Liberty Basic from [here](https://www.libertybasic.com/download.html) and install with default settings.
   1. Open the ```main.bas``` file with the Liberty Basic editor and after waiting for the advertisement to close, and either:
     * Move the mouse over to the blue triangle approximately 9 icons to the right of the screen.
     * Select "Run" from the menu bar and then select "Run" from the dropdown menu.

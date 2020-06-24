@@ -24,5 +24,5 @@ for i = 0 to 39
   EoSecA = instr(questions$(i, 1), ";", EoA)
   questions$(i,1) = left$(questions$(i, 1), EoA)
   questions$(i, 2) = mid$(questions$(i, 2), EoSecA)
-  print questions$(i,2)
+  print questions$(i,1)
 next
