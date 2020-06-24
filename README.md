@@ -9,7 +9,7 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
 1. [Answer Key](#answer-key)
 
 ## License
-The following is a summary of the full do what the fuck you want to but with conditions public license. For the full license, please view the license file [here](/LICENSE)
+The following is a summary of the full do what ~~the fuck~~ you want to but with conditions public license. For the full license, please view the license file [here](/LICENSE)
 
 1. Viewing, opening or otherwise allowing the contents of any
   files, in any form, to be transferred, copied, paraphrased
