@@ -1,11 +1,8 @@
 # Million Dollar Hot Seat
 Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design and Development Individual Programming task.
 
-<<<<<<< HEAD
-[![buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/afa5e) <a href="https://www.patreon.com/afa5e"><img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" height="35" top=""></a>
-=======
-[![buy me a coffee](https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png)](https://www.buymeacoffee.com/afa5e) <a href="https://www.patreon.com/afa5e"><img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" width="170" top=""></a>
->>>>>>> 4ffdb1966dd8f9050a6c8d5a7c45a502bdea20c0
+
+<a href="https://www.buymeacoffee.com/afa5e"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" height="35" top=""></a> <a href="https://www.patreon.com/afa5e"><img src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" height="35" top=""></a>
 
 ## Contents
 1. [License](#License)
