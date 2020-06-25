@@ -89,3 +89,13 @@ The following is a summary of the full do what ~~the fuck~~ you want to but with
   If you have a problem with this tool, please file an issue on Github [here](https://github.com/afa5e/Million-Dollar-Hot-Seat/issues) after checking the logs for your issue. If you have other problems with the software, you can contact Customer Support on 04~~REDACTED~~.
 
   [Return to the top.](#million-dollar-hot-seat)
+
+## Code of Conduct
+  For the code of conduct, please view the file [here]()
+
+  [Return to the top.](#million-dollar-hot-seat)
+
+## Social and Ethical issues
+
+
+  [Return to the top.](#million-dollar-hot-seat)
