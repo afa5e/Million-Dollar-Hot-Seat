@@ -93,11 +93,13 @@ The following is a summary of the full do what ~~the fuck~~ you want to but with
   [Return to the top.](#million-dollar-hot-seat)
 
 ## Code of Conduct
-  For the code of conduct, please view the file [here]()
+  For the code of conduct, please view the file [here](https://github.com/afa5e/Million-Dollar-Hot-Seat/blob/master/CODE-OF-CONDUCT.md)
 
   [Return to the top.](#million-dollar-hot-seat)
 
 ## Social and Ethical issues
   For the full Social and Ethical Issues please see [this](https://github.com/afa5e/Million-Dollar-Hot-Seat/blob/master/Documentation/Social-Ethical-Issues.md).
 
+  The social and ethical issues of a game show relying on the competitors intelligence and their prior knowledge of the topic of software and electronic hardware:
+  * Is it ethically and morally correct to place two or more people against each other
   [Return to the top.](#million-dollar-hot-seat)
