@@ -93,7 +93,7 @@ The following is a summary of the full do what ~~the fuck~~ you want to but with
   [Return to the top.](#million-dollar-hot-seat)
 
 ## Code of Conduct
-  For the code of conduct, please view the file [here]()
+  For the code of conduct, please view the file [here](https://github.com/afa5e/Million-Dollar-Hot-Seat/blob/master/CODE-OF-CONDUCT.md)
 
   [Return to the top.](#million-dollar-hot-seat)
 
