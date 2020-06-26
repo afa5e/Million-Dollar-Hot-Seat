@@ -80,7 +80,7 @@ The following is a summary of the full do what ~~the fuck~~ you want to but with
   Which of the following is not used as a symbol in flowcharts?|Pentagon
   Which of the following is not a logic operator?|~=
   Which of the following is not a valid example of a boolean operation?|x~~y
-  The term "pixel" is an abbreviation of?|picture element
+  The term "pixel" is an abbreviation of?|Picture element
   The theory that processing power would double every 18 months is called?|Moore's law
   The rate that the fetch-execute cycle occurs is governed by which system or entity?|System clock
   How many cores are there in a 6th Gen i5 CPU?|5
@@ -102,5 +102,5 @@ The following is a summary of the full do what ~~the fuck~~ you want to but with
 
   The social and ethical issues of a game show relying on the competitors intelligence and their prior knowledge of the topic of software and electronic hardware:
   * Is it ethically and morally correct to place two or more people against each other
- 
+
   [Return to the top.](#million-dollar-hot-seat)
