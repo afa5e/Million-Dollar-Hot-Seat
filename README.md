@@ -98,6 +98,6 @@ The following is a summary of the full do what ~~the fuck~~ you want to but with
   [Return to the top.](#million-dollar-hot-seat)
 
 ## Social and Ethical issues
-
+  For the full Social and Ethical Issues please see [this](https://github.com/afa5e/Million-Dollar-Hot-Seat/blob/master/Documentation/Social-Ethical-Issues.md).
 
   [Return to the top.](#million-dollar-hot-seat)
