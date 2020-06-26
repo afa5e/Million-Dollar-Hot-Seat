@@ -1,13 +1,39 @@
 # Million Dollar Hot Seat
 Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design and Development Individual Programming task.
 
+<a href="https://www.buymeacoffee.com/afa5e"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" height="35" top=""></a> <a href="https://www.patreon.com/afa5e"><img src="img/patreon.png" height="35" top=""></a>
+
 ## Contents
+1. [License](#License)
 1. [Installation instructions](#installation-and-executing)
 1. [Answer Key](#answer-key)
+1. [Issues](#issues)
+1. [Code of Conduct](#code-of-conduct)
+1. [Social and Ethical issues](#social-and-ethical-issues)
+
+## License
+The following is a summary of the full do what ~~the fuck~~ you want to but with conditions public license. For the full license, please view the license file [here](/LICENSE)
+
+1. Viewing, opening or otherwise allowing the contents of any
+  files, in any form, to be transferred, copied, paraphrased
+  or otherwise give any entity knowledge of the contents,
+  excluding the README.md and LICENSE file, is NOT allowed
+  without prior written consent by the author.
+
+1. The software must not be used in any form for any purposes,
+  including but is not limited to educational purposes; without
+  prior written consent from the author.
+
+1. To read, paraphrase, copy, transmit, retransmit, download, fax,
+  fork or otherwise make or distribute a copy of the source code or
+  other material covered by this license is not allowed without
+  prior written consent from the author.
+
+[Return to the top.](#million-dollar-hot-seat)
 
 ## Installation and Executing
   To run the Million Dollar Hot Seat program:
-  1. Download the free version Liberty Basic from [here](https://www.libertybasic.com/download.html) and install with default settings.
+  1. Download the free version of Liberty Basic from [here](https://www.libertybasic.com/download.html) and install with default settings.
   1. Open the ```main.bas``` file with the Liberty Basic editor and after waiting for the advertisement to close, and either:
     * Move the mouse over to the blue triangle approximately 9 icons to the right of the screen.
     * Select "Run" from the menu bar and then select "Run" from the dropdown menu.
@@ -58,5 +84,20 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
   The theory that processing power would double every 18 months is called?|Moore's law
   The rate that the fetch-execute cycle occurs is governed by which system or entity?|System clock
   How many cores are there in a 6th Gen i5 CPU?|5
+
+  [Return to the top.](#million-dollar-hot-seat)
+
+## Issues
+  If you have a problem with this tool, please file an issue on Github [here](https://github.com/afa5e/Million-Dollar-Hot-Seat/issues) after checking the logs for your issue. If you have other problems with the software, you can contact Customer Support on 04~~REDACTED~~.
+
+  [Return to the top.](#million-dollar-hot-seat)
+
+## Code of Conduct
+  For the code of conduct, please view the file [here]()
+
+  [Return to the top.](#million-dollar-hot-seat)
+
+## Social and Ethical issues
+  For the full Social and Ethical Issues please see [this](https://github.com/afa5e/Million-Dollar-Hot-Seat/blob/master/Documentation/Social-Ethical-Issues.md).
 
   [Return to the top.](#million-dollar-hot-seat)
