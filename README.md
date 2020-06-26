@@ -102,4 +102,5 @@ The following is a summary of the full do what ~~the fuck~~ you want to but with
 
   The social and ethical issues of a game show relying on the competitors intelligence and their prior knowledge of the topic of software and electronic hardware:
   * Is it ethically and morally correct to place two or more people against each other
+ 
   [Return to the top.](#million-dollar-hot-seat)
