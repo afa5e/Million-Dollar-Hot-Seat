@@ -8,6 +8,8 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
 1. [Installation instructions](#installation-and-executing)
 1. [Answer Key](#answer-key)
 1. [Issues](#issues)
+1. [Code of Conduct](#code-of-conduct)
+1. [Social and Ethical issues](#social-and-ethical-issues)
 
 ## License
 The following is a summary of the full do what ~~the fuck~~ you want to but with conditions public license. For the full license, please view the license file [here](/LICENSE)
