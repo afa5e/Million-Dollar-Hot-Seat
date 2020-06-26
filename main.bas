@@ -8,7 +8,28 @@ LoF = 5272 '''Q2 has a chunk that the code decides to consistently skip, to coun
 for i = 0 to 39
   EoQ = instr(rawQuestions$, "#", 2)
   questions$(i, 1) = left$(rawQuestions$, EoQ-1)
-  print left$(rawQuestions$, EoQ-1)
   rawQuestions$ = right$(rawQuestions$, LoF-EoQ) '''5261
   LoF = LoF-EoQ
+next
+
+for i = 0 to 39
+  EoQ = instr(questions$(i, 1),"?")
+  EoA = instr(mid$(questions$(i, 1), EoQ + 2), ";")-1
+  'Finds all chars between the end of the question (plus 2 to account for spacing and punctuation) and the end of the answer.
+  questions$(i, 2) = mid$(questions$(i, 1), EoQ + 2, EoA)
+  'Finds all chars between the positions of the first semicolon and the 2nd semicolon.
+  questions$(i, 3) = left$(mid$(questions$(i, 1), EoA + EoQ + 3), instr(mid$(questions$(i, 1), EoA + EoQ + 3), ";") - 1)
+  EoSecA = instr(mid$(questions$(i, 1), EoA + EoQ + 3), ";") - 1
+  'Finds all chars between the positions of the 2nd semicolon and the third semicolon.
+  questions$(i, 4) = left$(mid$(questions$(i, 1), EoA + EoQ + EoSecA + 4), instr(mid$(questions$(i, 1), EoA + EoQ + EoSecA + 4), ";") - 1)
+  EoTrdA = instr(mid$(questions$(i, 1), EoA + EoQ + EoSecA + 4), ";") - 1
+  'Finds all chars from the last semicolon and the end.
+  questions$(i, 5) = mid$(questions$(i, 1), EoA + EoQ + EoSecA + EoTrdA + 5)
+  questions$(i, 1) = left$(questions$(i, 1), EoQ)
+  print questions$(i, 1)
+  print questions$(i, 2)
+  print questions$(i, 3)
+  print questions$(i, 4)
+  print questions$(i, 5)
+
 next
