@@ -1,10 +1,10 @@
 # Million Dollar Hot Seat
 
-<img src="img/completion-25-orange.svg" /> <img src="img/questions-40-brightgreen.svg" /> <img src="img/language-liberty--basic-red.svg" /> <img src="img/made with-atom-lightgrey.svg" /> <a href="https://github.com/afa5e/Million-Dollar-Hot-Seat/blob/master/img/wechat.jpg"><img src="img/wechat.svg" /></a>
+<img src="img/completion-25-orange.svg" /> <img src="img/questions-40-brightgreen.svg" /> <img src="img/language-liberty--basic-red.svg" /> <img src="img/made with-atom-lightgrey.svg" />
 
 Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design and Development Individual Programming task.
 
-<a href="https://www.buymeacoffee.com/afa5e"><img src="img/coffee.webp" height="35" top="" /></a> <a href="https://www.patreon.com/afa5e"><img src="img/patreon.png" height="35" top="" /></a> <a href="https://issuehunt.io/r/afa5e/Million-Dollar-Hot-Seat"><img src="img/issueHunt.png" height="35" top="" /></a>
+<a href="https://www.buymeacoffee.com/afa5e"><img src="img/coffee.webp" height="35" top="" /></a> <a href="https://www.patreon.com/afa5e"><img src="img/patreon.png" height="35" top="" /></a> <a href="https://issuehunt.io/r/afa5e/Million-Dollar-Hot-Seat"><img src="img/issueHunt.png" height="35" top="" /></a><a href="https://github.com/afa5e/Million-Dollar-Hot-Seat/blob/master/img/wechat.jpg"><img src="img/wechat.svg" height="35" /></a>
 
 ## Contents
 1. [License](#License)
