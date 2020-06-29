@@ -62,7 +62,7 @@ The following is a summary of the full do what ~~the fuck~~ you want to but with
   How many bits per pixel is assigned for colour in a VGA signal?|8
   Which of the following is not the name of a corona wire in a laser printer?|Ionising
   Which of the following is a form of data storage that has been developed past the feasibility test stage?|Rope coil memory
-  Which of the following is the shape of the tracks on a CD-ROM?|spirals
+  Which of the following is the shape of the tracks on a CD-ROM?|Spirals
   How many bits are encoded onto a CD-ROM?|14
   Approximately how many transistors are in a Pentium 4 processor?|42 Million
   Which of the following is not a implementation of von Neumann architecture?|IISC
