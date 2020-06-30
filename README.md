@@ -78,7 +78,7 @@ The following is a summary of the full do what ~~the fuck~~ you want to but with
   Why are FPGAs used?|FPGAs can be reprogrammed to accomplish various tasks faster than a RISC module but slower than a dedicated ASIC circuit
   What was the clock speed of the first intel microprocessor?|740kHz
   Which of the following is a repetition control structure?|DO WHILE
-  Which of the following is an example of a visual algorithm description?|flowcharts
+  Which of the following is an example of a visual algorithm description?|Flowcharts
   Which of the following may cause "Spaghetti code"?|GOTO
   Which of the following is not used as a symbol in flowcharts?|Pentagon
   Which of the following is not a logic operator?|~=
