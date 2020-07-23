@@ -14,15 +14,18 @@ next
 
 for i = 0 to 39
   EoQ = instr(questions$(i, 1),"?")
-  questions$(i, 2) = right$(questions$(i, 1), len(questions$(i, 1)) - EoQ)
-  questions$(i, 3) = right$(questions$(i, 1), len(questions$(i, 1)) - EoQ)
-  questions$(i, 4) = right$(questions$(i, 1), len(questions$(i, 1)) - EoQ)
-  questions$(i, 5) = right$(questions$(i, 1), len(questions$(i, 1)) - EoQ)
+  EoA = instr(mid$(questions$(i, 1), EoQ + 2), ";")-1
+  'Finds all chars between the end of the question (plus 2 to account for spacing and punctuation) and the end of the answer.
+  questions$(i, 2) = mid$(questions$(i, 1), EoQ + 2, EoA)
+  'Finds all chars between the positions of the first semicolon and the 2nd semicolon.
+  questions$(i, 3) = left$(mid$(questions$(i, 1), EoA + EoQ + 3), instr(mid$(questions$(i, 1), EoA + EoQ + 3), ";") - 1)
+  EoSecA = instr(mid$(questions$(i, 1), EoA + EoQ + 3), ";") - 1
+  'Finds all chars between the positions of the 2nd semicolon and the third semicolon.
+  questions$(i, 4) = left$(mid$(questions$(i, 1), EoA + EoQ + EoSecA + 4), instr(mid$(questions$(i, 1), EoA + EoQ + EoSecA + 4), ";") - 1)
+  EoThrdA = instr(mid$(questions$(i, 1), EoA + EoQ + EoSecA + 4), ";") - 1
+  'Finds all chars from the last semicolon and the end.
+  questions$(i, 5) = mid$(questions$(i, 1), EoA + EoQ + EoSecA + EoThrdA + 5)
   questions$(i, 1) = left$(questions$(i, 1), EoQ)
-
-  EoA = instr(questions$(i, 1),";")
-  EoSecA = instr(questions$(i, 1), ";", EoA)
-  questions$(i,1) = left$(questions$(i, 1), EoA)
-  questions$(i, 2) = mid$(questions$(i, 2), EoSecA)
-  print questions$(i,1)
 next
+
+'-400/(1.04x-50)-8
