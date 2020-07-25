@@ -22,10 +22,13 @@ for i = 0 to 39
   EoSecA = instr(mid$(questions$(i, 1), EoA + EoQ + 3), ";") - 1
   'Finds all chars between the positions of the 2nd semicolon and the third semicolon.
   questions$(i, 4) = left$(mid$(questions$(i, 1), EoA + EoQ + EoSecA + 4), instr(mid$(questions$(i, 1), EoA + EoQ + EoSecA + 4), ";") - 1)
-  EoTrdA = instr(mid$(questions$(i, 1), EoA + EoQ + EoSecA + 4), ";") - 1
+  EoThrdA = instr(mid$(questions$(i, 1), EoA + EoQ + EoSecA + 4), ";") - 1
   'Finds all chars from the last semicolon and the end.
-  questions$(i, 5) = mid$(questions$(i, 1), EoA + EoQ + EoSecA + EoTrdA + 5)
+  questions$(i, 5) = mid$(questions$(i, 1), EoA + EoQ + EoSecA + EoThrdA + 5)
   questions$(i, 1) = left$(questions$(i, 1), EoQ)
+<<<<<<< HEAD
   print questions$(i, 4)
 
+=======
+>>>>>>> 1504450fab5198ac7252b3b5102e959a86f883ec
 next
