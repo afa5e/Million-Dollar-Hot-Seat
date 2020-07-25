@@ -38,7 +38,7 @@ The following is a summary of the full do what ~~the fuck~~ you want to but with
   To run the Million Dollar Hot Seat program:
   1. Download the free version of Liberty Basic from [here](https://www.libertybasic.com/download.html) and install with default settings.
   1. Open the ```main.bas``` file with the Liberty Basic editor and after waiting for the advertisement to close, and either:
-    * Move the mouse over to the blue triangle approximately 9 icons to the right of the screen.
+    * Move the mouse over to the blue triangle approximately 9 icons from the left on the screen.
     * Select "Run" from the menu bar and then select "Run" from the dropdown menu.
     * Simultaneously press ```shift``` and ```F5```.
 
