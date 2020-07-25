@@ -27,5 +27,3 @@ for i = 0 to 39
   questions$(i, 5) = mid$(questions$(i, 1), EoA + EoQ + EoSecA + EoThrdA + 5)
   questions$(i, 1) = left$(questions$(i, 1), EoQ)
 next
-
-'-400/(1.04x-50)-8
