@@ -1,7 +1,10 @@
 # Million Dollar Hot Seat
+
+<img src="img/completion-25-orange.svg" /> <img src="img/questions-40-brightgreen.svg" /> <img src="img/language-liberty--basic-red.svg" /> <img src="img/made with-atom-lightgrey.svg" />
+
 Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design and Development Individual Programming task.
 
-<a href="https://www.buymeacoffee.com/afa5e"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" height="35" top=""></a> <a href="https://www.patreon.com/afa5e"><img src="img/patreon.png" height="35" top=""></a>
+<a href="https://www.buymeacoffee.com/afa5e"><img src="img/coffee.webp" height="35" top="" /></a> <a href="https://www.patreon.com/afa5e"><img src="img/patreon.png" height="35" top="" /></a> <a href="https://issuehunt.io/r/afa5e/Million-Dollar-Hot-Seat"><img src="img/issueHunt.png" height="35" top="" /></a><a href="https://github.com/afa5e/Million-Dollar-Hot-Seat/blob/master/img/wechat.jpg"><img src="img/wechat.svg" height="35" /></a>
 
 ## Contents
 1. [License](#License)
@@ -35,7 +38,7 @@ The following is a summary of the full do what ~~the fuck~~ you want to but with
   To run the Million Dollar Hot Seat program:
   1. Download the free version of Liberty Basic from [here](https://www.libertybasic.com/download.html) and install with default settings.
   1. Open the ```main.bas``` file with the Liberty Basic editor and after waiting for the advertisement to close, and either:
-    * Move the mouse over to the blue triangle approximately 9 icons to the right of the screen.
+    * Move the mouse over to the blue triangle approximately 9 icons from the left on the screen.
     * Select "Run" from the menu bar and then select "Run" from the dropdown menu.
     * Simultaneously press ```shift``` and ```F5```.
 
@@ -59,7 +62,7 @@ The following is a summary of the full do what ~~the fuck~~ you want to but with
   How many bits per pixel is assigned for colour in a VGA signal?|8
   Which of the following is not the name of a corona wire in a laser printer?|Ionising
   Which of the following is a form of data storage that has been developed past the feasibility test stage?|Rope coil memory
-  Which of the following is the shape of the tracks on a CD-ROM?|spirals
+  Which of the following is the shape of the tracks on a CD-ROM?|Spirals
   How many bits are encoded onto a CD-ROM?|14
   Approximately how many transistors are in a Pentium 4 processor?|42 Million
   Which of the following is not a implementation of von Neumann architecture?|IISC
@@ -75,12 +78,12 @@ The following is a summary of the full do what ~~the fuck~~ you want to but with
   Why are FPGAs used?|FPGAs can be reprogrammed to accomplish various tasks faster than a RISC module but slower than a dedicated ASIC circuit
   What was the clock speed of the first intel microprocessor?|740kHz
   Which of the following is a repetition control structure?|DO WHILE
-  Which of the following is an example of a visual algorithm description?|flowcharts
+  Which of the following is an example of a visual algorithm description?|Flowcharts
   Which of the following may cause "Spaghetti code"?|GOTO
   Which of the following is not used as a symbol in flowcharts?|Pentagon
   Which of the following is not a logic operator?|~=
   Which of the following is not a valid example of a boolean operation?|x~~y
-  The term "pixel" is an abbreviation of?|picture element
+  The term "pixel" is an abbreviation of?|Picture element
   The theory that processing power would double every 18 months is called?|Moore's law
   The rate that the fetch-execute cycle occurs is governed by which system or entity?|System clock
   How many cores are there in a 6th Gen i5 CPU?|5
@@ -93,11 +96,14 @@ The following is a summary of the full do what ~~the fuck~~ you want to but with
   [Return to the top.](#million-dollar-hot-seat)
 
 ## Code of Conduct
-  For the code of conduct, please view the file [here]()
+  For the code of conduct, please view the file [here](https://github.com/afa5e/Million-Dollar-Hot-Seat/blob/master/CODE-OF-CONDUCT.md).
 
   [Return to the top.](#million-dollar-hot-seat)
 
 ## Social and Ethical issues
   For the full Social and Ethical Issues please see [this](https://github.com/afa5e/Million-Dollar-Hot-Seat/blob/master/Documentation/Social-Ethical-Issues.md).
+
+  The social and ethical issues of a game show relying on the competitors intelligence and their prior knowledge of the topic of software and electronic hardware:
+  * Is it ethically and morally correct to place two or more people against each other
 
   [Return to the top.](#million-dollar-hot-seat)
