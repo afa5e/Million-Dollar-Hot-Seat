@@ -26,6 +26,11 @@ for i = 0 to 39
   'Finds all chars from the last semicolon and the end.
   questions$(i, 5) = mid$(questions$(i, 1), EoA + EoQ + EoSecA + EoThrdA + 5)
   questions$(i, 1) = left$(questions$(i, 1), EoQ)
+<<<<<<< HEAD
+  print questions$(i, 4)
+
+=======
+>>>>>>> 1504450fab5198ac7252b3b5102e959a86f883ec
 next
 
 '-400/(1.04x-50)-8
