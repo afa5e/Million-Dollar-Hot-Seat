@@ -1,0 +1,59 @@
+Which of the following is not a valid price for a Liberty Basic installation tier?
+$19.95
+$29.95
+$49.95
+$00.00
+
+Where can copies of Silver and Gold Liberty Basic licenses not be purchased?
+Email
+Website
+Postal Mail
+Phone
+
+Who is Shoptalk Systems?
+Shoptalk Systems is the publisher of Liberty Basic and Run Basic.
+Shoptalk Systems is a manufacturer of PA systems that are designed to be installed and used in the retail sector.
+Shoptalk Systems is an audio equipment manufacturer.
+Shoptalk Systems is an outsourced customer service center.
+
+Where is Shoptalk Systems located?
+Framingham, MA 01701, United States of America
+Hereford, United Kingdom
+London, Ontario, Canada
+Ny-London, Svalbard, Norway
+
+Which of the following computer systems is below the minimum requirements to run Liberty Basic?
+Intel Pentium III, GeForce 4 MX 4000, 512MB Ram, Windows Vista.
+i9-10900K 5.30GHz Base Clock, RTX2080Ti, 32GB 3200MHz DDR4, 1TB NVMe SSD, Windows 10.
+i7-6500, 8GB 3200MHz DDR4, 1TB NVMe SSD, Windows 10.
+i7-6500U, 8GB DDR3 SODIMM, 222Gb SATA SSD, Windows 10.
+
+Can Liberty Basic be used on Raspberry Pi?
+No, but Liberty Basic version 5.0 is currently in development would work with Windows 10, MacOS, Linux and Raspberry Pi.
+Yes, but only version 4.4
+Yes, but only version 4.5
+Yes
+
+What type of software can be made with Liberty Basic?
+TKNs
+Python program
+Pascal
+C
+
+Can liberty Basic be used to create a web application?
+No, but Run Basic can.
+Yes, v4.4 only
+Yes, v4.5 only
+Yes
+
+Where can I learn Liberty Basic?
+EBHS
+Eastwood Library has textbooks.
+Nowhere
+Ny-London, Svalbard, Norway
+
+How does Liberty Basic compare with Visual Basic?
+Liberty Basic should not be purchased.
+Visual basic is worse.
+No comment.
+Lego Mindstorms is better.
