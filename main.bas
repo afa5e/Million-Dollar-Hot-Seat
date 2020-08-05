@@ -1,4 +1,4 @@
-global questions$, names$, correct$, chosenAnswer$, currentUserIndex, questionIndex
+global questions$, names$, correct, chosenAnswer$, currentUserIndex, questionIndex, winner
 call onFirstRun
 
 sub readQuestionFile
@@ -59,12 +59,16 @@ sub mainLoop
     timer 0
     call querySub
     call checkAnswer
-    print "Current user: '"; names$(currentUserIndex, 0); "' is now on "; names$(currentUserIndex, 1); " point(s)."
+    print "Current user: '"; names$(currentUserIndex, 0); "' is now on "; names$(currentUserIndex, 1); " correct answer(s)."
+    call swapPlayers
 end sub
 
 end
 sub querySub
   questionIndex = int(rnd(1) * 40)
+  while questions$(questionIndex, 6) = "1"
+    questionIndex = int(rnd(1) * 40) ''' Questions are only marked as completed once a player has CORRECTLY answered the question.
+  wend
   print questions$(questionIndex, 1)
   for i = 1 to 5
     shuffledQuestions$(i, 1) = questions$(questionIndex, i)
@@ -76,8 +80,6 @@ sub querySub
   print "C: ", shuffledQuestions$(4, 1)
   print "D: ", shuffledQuestions$(5, 1)
 end sub
-
-
 
 sub checkAnswer
   input "Answer: "; chosenAnswer$
@@ -94,11 +96,19 @@ sub checkAnswer
   print questions$(questionIndex, 2)
   if chosenAnswer$ = questions$(questionIndex, 2) then
     call incrementScore
+    questions$(questionIndex, 6) = "1"
+    correct = 1
   else
     correct = 0
   end if
 end sub
 
 sub incrementScore
-    names$(currentUserIndex, 1) = str$(1)
+  names$(currentUserIndex, 1) = str$(1)
+end sub
+
+sub swapPlayers
+  print names$(currentUserIndex, 0)
+  currentUserIndex = (currentUserIndex + 1) mod 4
+  print names$(currentUserIndex, 0)
 end sub
