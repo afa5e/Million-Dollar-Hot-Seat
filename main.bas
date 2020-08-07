@@ -6,15 +6,15 @@ sub readQuestionFile
   rawQuestions$ = input$(#file, lof(#file))
   close #file
 
-  dim questions$(40,6) '''40 rows of questions: question|correct|answer|answer|answer|answered correctly or not (1, 0)
-  dim names$(3, 2) '''4 rows of user data: name|score|random float to sort against
+  dim questions$(40,6) '40 rows of questions: question|correct|answer|answer|answer|answered correctly or not (1, 0)
+  dim names$(3, 2) '4 rows of user data: name|score|random float to sort against
   winner = 0
 
-  LoF = 5272 '''Q2 has a chunk that the code decides to consistently skip, to counteract this, another copy of the missing section was added to allow the program to recognise the start of the question.
+  LoF = 5272 'Q2 has a chunk that the code decides to consistently skip, to counteract this, another copy of the missing section was added to allow the program to recognise the start of the question.
   for i = 0 to 39
     EoQ = instr(rawQuestions$, "#", 2)
     questions$(i, 1) = left$(rawQuestions$, EoQ-1)
-    rawQuestions$ = right$(rawQuestions$, LoF-EoQ) '''5261
+    rawQuestions$ = right$(rawQuestions$, LoF-EoQ) '5261
     LoF = LoF-EoQ
   next
 
@@ -30,7 +30,7 @@ sub readQuestionFile
     questions$(i, 4) = left$(mid$(questions$(i, 1), EoA + EoQ + EoSecA + 4), instr(mid$(questions$(i, 1), EoA + EoQ + EoSecA + 4), ";") - 1)
     EoThrdA = instr(mid$(questions$(i, 1), EoA + EoQ + EoSecA + 4), ";") - 1
     'Finds all chars from the last semicolon and the end.
-    questions$(i, 5) = mid$(questions$(i, 1), EoA + EoQ + EoSecA + EoThrdA + 5)
+    questions$(i, 5) = mid$(questions$(i, 1), EoA + EoQ + EoSecA + EoThrdA + 5) 
     questions$(i, 1) = left$(questions$(i, 1), EoQ)
     questions$(i, 6) = "0"
   next
@@ -57,17 +57,21 @@ end sub
 
 sub mainLoop
     timer 0
-    call querySub
-    call checkAnswer
-    print "Current user: '"; names$(currentUserIndex, 0); "' is now on "; names$(currentUserIndex, 1); " correct answer(s)."
-    call swapPlayers
+    while winner = 0
+      call querySub
+      call checkAnswer
+      print "Current user: '"; names$(currentUserIndex, 0); "' is now on "; names$(currentUserIndex, 1); " correct answer(s)."
+      call swapPlayers
+    wend
+    print "A player has won."
+    end
 end sub
 
 end
 sub querySub
   questionIndex = int(rnd(1) * 40)
   while questions$(questionIndex, 6) = "1"
-    questionIndex = int(rnd(1) * 40) ''' Questions are only marked as completed once a player has CORRECTLY answered the question.
+    questionIndex = int(rnd(1) * 40) ' Questions are only marked as completed once a player has CORRECTLY answered the question.
   wend
   print questions$(questionIndex, 1)
   for i = 1 to 5
@@ -102,13 +106,17 @@ sub checkAnswer
     correct = 0
   end if
 end sub
-
 sub incrementScore
-  names$(currentUserIndex, 1) = str$(1)
+  '''placeholder$ = str$(val(names$(currentUserIndex, 1)) + 1) May need to be used if the following line does not work.
+  names$(currentUserIndex, 1) = str$(val(names$(currentUserIndex, 1)) + 1)
+  print names$(currentUserIndex, 1)
+  if names$(currentUserIndex, 1) = "20" then
+    winner = 1
+  end if
 end sub
 
 sub swapPlayers
-  print names$(currentUserIndex, 0)
-  currentUserIndex = (currentUserIndex + 1) mod 4
-  print names$(currentUserIndex, 0)
+  do
+    currentUserIndex = (currentUserIndex + 1) mod 4
+  loop while not(names$(currentUserIndex, 1) = "-1")
 end sub
