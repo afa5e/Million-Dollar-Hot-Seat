@@ -1,4 +1,4 @@
-global questions$, names$, correct, chosenAnswer$, currentUserIndex, questionIndex, winner
+global questions$, names$, correct, chosenAnswer$, currentUserIndex, questionIndex, million, swapped$
 call onFirstRun
 
 sub readQuestionFile
@@ -7,8 +7,8 @@ sub readQuestionFile
   close #file
 
   dim questions$(40,6) '40 rows of questions: question|correct|answer|answer|answer|answered correctly or not (1, 0)
-  dim names$(3, 2) '4 rows of user data: name|score|random float to sort against
-  winner = 0
+  dim names$(3, 3) '4 rows of user data: name|score|random float to sort against|swapped
+  million = 0
 
   LoF = 5272 'Q2 has a chunk that the code decides to consistently skip, to counteract this, another copy of the missing section was added to allow the program to recognise the start of the question.
   for i = 0 to 39
@@ -30,7 +30,7 @@ sub readQuestionFile
     questions$(i, 4) = left$(mid$(questions$(i, 1), EoA + EoQ + EoSecA + 4), instr(mid$(questions$(i, 1), EoA + EoQ + EoSecA + 4), ";") - 1)
     EoThrdA = instr(mid$(questions$(i, 1), EoA + EoQ + EoSecA + 4), ";") - 1
     'Finds all chars from the last semicolon and the end.
-    questions$(i, 5) = mid$(questions$(i, 1), EoA + EoQ + EoSecA + EoThrdA + 5) 
+    questions$(i, 5) = mid$(questions$(i, 1), EoA + EoQ + EoSecA + EoThrdA + 5)
     questions$(i, 1) = left$(questions$(i, 1), EoQ)
     questions$(i, 6) = "0"
   next
@@ -42,10 +42,10 @@ sub setup
     cls
     names$(i, 1) = "0"
     names$(i, 2) = str$(rnd(1))
+    names$(i, 3) = "0"
   next
   currentUserIndex = int(rnd(1) * 4)
   sort names$(), 0, 3, 2
-  print "Player order is: "; names$(0, 0);", "; names$(1, 0);", "; names$(2, 0);", "; names$(3, 0)
   timer 1000, mainLoop
   wait
 end sub
@@ -56,22 +56,30 @@ sub onFirstRun
 end sub
 
 sub mainLoop
-    timer 0
-    while winner = 0
-      call querySub
-      call checkAnswer
-      print "Current user: '"; names$(currentUserIndex, 0); "' is now on "; names$(currentUserIndex, 1); " correct answer(s)."
-      call swapPlayers
-    wend
-    print "A player has won."
-    end
+  timer 0
+  while million = 0
+    [someoneFailedTheMillionDollarQuestion]
+    cls
+    print "Current player is "; names$(currentUserIndex, 0)
+    call querySub
+    [reQuery]
+    swapped$ = "0"
+    call checkAnswer
+    if swapped$ = "1" then
+      call reaskQuery
+      goto [reQuery]
+    end if
+    cls
+  wend
+  call millionDollarQuestion
+  end
 end sub
 
 end
 sub querySub
   questionIndex = int(rnd(1) * 40)
   while questions$(questionIndex, 6) = "1"
-    questionIndex = int(rnd(1) * 40) ' Questions are only marked as completed once a player has CORRECTLY answered the question.
+    questionIndex = int(rnd(1) * 40)
   wend
   print questions$(questionIndex, 1)
   for i = 1 to 5
@@ -85,8 +93,36 @@ sub querySub
   print "D: ", shuffledQuestions$(5, 1)
 end sub
 
+sub reaskQuery
+    print "Current player is "; names$(currentUserIndex, 0)
+    print questions$(questionIndex, 1)
+    print "A: ", shuffledQuestions$(2, 1)
+    print "B: ", shuffledQuestions$(3, 1)
+    print "C: ", shuffledQuestions$(4, 1)
+    print "D: ", shuffledQuestions$(5, 1)
+end sub
+
 sub checkAnswer
+  [reCheck]
   input "Answer: "; chosenAnswer$
+  if lower$(chosenAnswer$) = "swap" then
+    print currentUserIndex; names$(0, 3); names$(1, 3); names$(2, 3); names$(3, 3)
+    if val(names$(currentUserIndex, 3)) = 0 then
+      names$(currentUserIndex, 3) = "1"
+      call swapPlayers
+      swapped$ = "1"
+      goto [endSwapSub]
+    else
+      print "Swap is unavailable for the current user."
+      timer 1500, [unswappableWait]
+      wait
+      [unswappableWait]
+      timer 0
+      cls
+      call reaskQuery
+      goto [reCheck]
+    end if
+  end if
   select case lower$(chosenAnswer$)
     case "a"
       chosenAnswer$ = shuffledQuestions$(2, 1)
@@ -97,26 +133,61 @@ sub checkAnswer
     case "d"
       chosenAnswer$ = shuffledQuestions$(5, 1)
   end select
-  print questions$(questionIndex, 2)
   if chosenAnswer$ = questions$(questionIndex, 2) then
     call incrementScore
-    questions$(questionIndex, 6) = "1"
+    questions$(questionIndex, 6) = "1" ' Questions are only marked as completed once a player has CORRECTLY answered the question.
     correct = 1
+    print "Correct; "; names$(currentUserIndex, 0); " is now on "; names$(currentUserIndex, 1); " correct answer(s)."
+    if val(names$(currentUserIndex, 1)) mod 5 = 0 then
+      call swapPlayers
+    end if
+    timer 1000, [waiting]
   else
     correct = 0
+    print "Incorrect; "; names$(currentUserIndex, 0); " is now on "; names$(currentUserIndex, 1); " correct answer(s)."
+    print "You have now lost."
+    names$(currentUserIndex, 1) = "-1"
+    call swapPlayers
+    timer 1000, [waiting]
   end if
+  wait
+  [waiting]
+  timer 0
+  cls
+  [endSwapSub]
 end sub
+
 sub incrementScore
   '''placeholder$ = str$(val(names$(currentUserIndex, 1)) + 1) May need to be used if the following line does not work.
   names$(currentUserIndex, 1) = str$(val(names$(currentUserIndex, 1)) + 1)
-  print names$(currentUserIndex, 1)
   if names$(currentUserIndex, 1) = "20" then
     winner = 1
   end if
 end sub
 
 sub swapPlayers
+  l = 0
   do
     currentUserIndex = (currentUserIndex + 1) mod 4
-  loop while not(names$(currentUserIndex, 1) = "-1")
+    l = l + 1
+    if l > 5 then
+      print "Everyone lost"
+      end
+    end if
+  loop while names$(currentUserIndex, 1) = "-1"
+end sub
+
+sub millionDollarQuestion
+  print "Which of the following is not a valid price for a Liberty Basic installation tier?"
+  print "a) $19.95"
+  print "b) $29.95"
+  print "c) $49.95"
+  print "d) $00.00"
+  input "Answer: "; sixBillionTwentyMillionThreeHundredAndFortyNineThousandNineHunderedAndEightySevenSatoshiQuestions$
+  if sixBillionTwentyMillionThreeHundredAndFortyNineThousandNineHunderedAndEightySevenSatoshiQuestions$) = "a" then
+    print "You won $2^20 or 6,020,349,987 Satoshi"
+    exit
+  end if
+  names$(currentUserIndex, 1) = "-1"
+  goto [someoneFailedTheMillionDollarQuestion]
 end sub
