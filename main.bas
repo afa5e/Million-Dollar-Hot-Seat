@@ -106,10 +106,10 @@ sub checkAnswer
   [reCheck]
   input "Answer: "; chosenAnswer$
   if lower$(chosenAnswer$) = "swap" then
-    print currentUserIndex; names$(0, 3); names$(1, 3); names$(2, 3); names$(3, 3)
     if val(names$(currentUserIndex, 3)) = 0 then
       names$(currentUserIndex, 3) = "1"
       call swapPlayers
+      cls
       swapped$ = "1"
       goto [endSwapSub]
     else
@@ -135,7 +135,9 @@ sub checkAnswer
   end select
   if chosenAnswer$ = questions$(questionIndex, 2) then
     call incrementScore
-    questions$(questionIndex, 6) = "1" ' Questions are only marked as completed once a player has CORRECTLY answered the question.
+    if rnd(1) > 0.5 then
+        questions$(questionIndex, 6) = "1" ' Questions are only marked as completed once a player has CORRECTLY answered the question.
+    end if
     correct = 1
     print "Correct; "; names$(currentUserIndex, 0); " is now on "; names$(currentUserIndex, 1); " correct answer(s)."
     if val(names$(currentUserIndex, 1)) mod 5 = 0 then
@@ -160,8 +162,8 @@ end sub
 sub incrementScore
   '''placeholder$ = str$(val(names$(currentUserIndex, 1)) + 1) May need to be used if the following line does not work.
   names$(currentUserIndex, 1) = str$(val(names$(currentUserIndex, 1)) + 1)
-  if names$(currentUserIndex, 1) = "20" then
-    winner = 1
+  if val(names$(currentUserIndex, 1)) >= 20 then
+    million = 1
   end if
 end sub
 
@@ -183,10 +185,11 @@ sub millionDollarQuestion
   print "b) $29.95"
   print "c) $49.95"
   print "d) $00.00"
-  input "Answer: "; sixBillionTwentyMillionThreeHundredAndFortyNineThousandNineHunderedAndEightySevenSatoshiQuestions$
-  if sixBillionTwentyMillionThreeHundredAndFortyNineThousandNineHunderedAndEightySevenSatoshiQuestions$) = "a" then
-    print "You won $2^20 or 6,020,349,987 Satoshi"
-    exit
+  input "Answer: "; millionAnswer$
+  if millionAnswer$ = "a" then
+    print "You won either 20992 copies of Liberty Basic Gold edition and still have $25.60 left; or 35010 copies of Liberty Basic Silver edition and still have $26.50 change."
+    wait
+    end
   end if
   names$(currentUserIndex, 1) = "-1"
   goto [someoneFailedTheMillionDollarQuestion]
