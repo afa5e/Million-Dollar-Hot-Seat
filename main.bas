@@ -186,7 +186,7 @@ sub millionDollarQuestion
   print "c) $49.95"
   print "d) $00.00"
   input "Answer: "; millionAnswer$
-  if millionAnswer$ = "a" then
+  if lower$(millionAnswer$) = "a" then
     print "You won either 20992 copies of Liberty Basic Gold edition and still have $25.60 left; or 35010 copies of Liberty Basic Silver edition and still have $26.50 change."
     wait
     end
