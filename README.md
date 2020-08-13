@@ -1,4 +1,4 @@
-fulfil# Million Dollar Hot Seat
+# Million Dollar Hot Seat
 
 <img src="img/completion-25-orange.svg" /> <img src="img/questions-40-brightgreen.svg" /> <img src="img/language-liberty--basic-red.svg" /> <img src="img/made with-atom-lightgrey.svg" />
 
@@ -57,6 +57,7 @@ The following is a summary of the full do what ~~the fuck~~ you want to but with
 
 ## The problem
 The problem that this piece of magnificent software was designed to solve was an undisclosed customer wanted a system that could emulate a popular game, Million Dollar Hot Seat. This included a bank comprised of a minimum of 40 questions, room for four players, the ability for users to skip or swap out of the hot seat and to potentially win 35010 copies of Liberty Basic Silver Edition, worth 2^20 USD.
+
 [Return to the top.](#million-dollar-hot-seat)
 
 ## FAQ
@@ -156,3 +157,33 @@ The problem that this piece of magnificent software was designed to solve was an
   * Is the Software engineer responsible for ensuring that all users who may or may not have a disability or other circumstance that may cause disadvantage while using the software be recognised and be given an alternative? Yes, but the software engineer is only morally bound to fulfil this ease of use or accessibility system. This may include limiting the use of colours that may result in colour blind users having difficulty; or interactions that may cause repeated strain injury.
 
   [Return to the top.](#million-dollar-hot-seat)
+
+## Logbook
+Time | Task
+:---:|:---:
+June 15th|Intial commit: Added files for gantt chart and rough dates; readme, including instructions. Fixed formatting of GFM in the readme file.
+June 16th|Added questions file and updated Gantt Flowcharts
+June 17th|Started code to import questions file, completed 40 questions, and tried to fix GFM formatting of images?
+June 18th|Updated Gantt chart for the previous day, reformatted questions.txt to suit the code, and corrected answer for one question.
+June 19th|Remembered to update gantt chart.
+June 20th|Updated question answer in readme file.
+June 21st|Added various functions to the gantt chart to display elapsed time for parts 1 and 2.
+June 22nd|Added logic that starts to split raw questions.txt into an array.
+June 23rd|Added funding pages to the repo in a futile attempt to procure funds to contine.
+June 24th|Changed license to a single paged WTFYW from GNU aGPL v3.0.
+June 24th|Tried to fix GFM rendering of the sponsorship links, gave up and used HTML tags instead.
+June 25th|Github convinced me to add a code of conduct.
+June 26th|Added IPO file and started social and ethical issues. Moved documentation into documentation folder. Finally finished questions.txt import to array logic. Also added a table of contents.
+June 29th|Added more images that broke GFM page formatting. Rearranged images to the correct location and added wechat donations.
+June 30th|Fixed punctuation in the questions?
+July 1st|Checked all my sponsorship pages of any donations: none. Took a three week break.
+July 21st|Tried to merge some branches.
+July 23rd|Remembered that a gantt chart existed! Broke my branch network some more.
+July 25th|Tried to fix my branches but instead worsened the problem. Fixed?
+July 27th|Added 20 more liberty basic questions—might not be used.
+August 4th|Started main game loop and other subroutines/functions.
+August 5th|Added ability to swap players.
+August 7th|Progress.
+August 8th-12th|Almost finished main.bas; DFD, CD, Changed gantt chart to reflect new schedule.
+August 13th|Logbook formatted to look good, gantt chart almost at 100% completion, data dictionary has been finished, IPO migrated to microsoft access and finished social and ethical issues.
+August 14th|Final QC of main.bas, screenshots/videos, checked all files. Go for marking?
