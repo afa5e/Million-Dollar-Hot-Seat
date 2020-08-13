@@ -14,6 +14,7 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
 1. [FAQ](#faq)
 1. [Answer Key](#answer-key)
 1. [Issues](#issues)
+1. [Testing](#testing)
 1. [Code of Conduct](#code-of-conduct)
 1. [Social and Ethical issues](#social-and-ethical-issues)
 
@@ -135,6 +136,13 @@ The problem that this piece of magnificent software was designed to solve was an
 
 ## Issues
   If you have a problem with this tool, please file an issue on Github [here](https://github.com/afa5e/Million-Dollar-Hot-Seat/issues) after checking the logs for your issue. If you have other problems with the software, you can contact Customer Support on 04~~REDACTED~~.
+
+  [Return to the top.](#million-dollar-hot-seat)
+
+## Testing
+  The following videos were recorded to demonstrate the quality of the system:
+  [Videos](https://github.com/afa5e/Million-Dollar-Hot-Seat/blob/master/testData.zip?raw=true)
+  Github dislikes 1080p60 videos.
 
   [Return to the top.](#million-dollar-hot-seat)
 

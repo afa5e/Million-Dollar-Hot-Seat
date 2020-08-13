@@ -60,11 +60,14 @@ sub mainLoop
   while million = 0
     [someoneFailedTheMillionDollarQuestion]
     cls
-    print "Current player is "; names$(currentUserIndex, 0)
+    print "Current player is "; names$(currentUserIndex, 0); " they are on "; names$(currentUserIndex, 1); " points."
     call querySub
     [reQuery]
     swapped$ = "0"
     call checkAnswer
+    if val(names$(currentUserIndex, 1)) >=20 then
+        call millionDollarQuestion
+    end if
     if swapped$ = "1" then
       call reaskQuery
       goto [reQuery]
@@ -129,16 +132,17 @@ sub checkAnswer
       cls
       call reaskQuery
       goto [reCheck]
-    else
-      if lower$(chosenAnswer$) = "help"
-        print "For help, please view readme.md using github."
-        timer 1500, [helped]
-        wait
-        timer 0
-        cls
-        goto reCheck
-      end if
     end if
+  end if
+  if lower$(chosenAnswer$) = "help" then
+    print "For help, please view readme.md using github."
+    timer 1500, [helped]
+    wait
+    [helped]
+    timer 0
+    cls
+    call reaskQuery
+    goto [reCheck]
   end if
   select case lower$(chosenAnswer$)
     case "a"
@@ -157,7 +161,16 @@ sub checkAnswer
     end if
     correct = 1
     print "Correct; "; names$(currentUserIndex, 0); " is now on "; names$(currentUserIndex, 1); " correct answer(s)."
+    if val(names$(currentUserIndex, 1)) >= 20 then
+      million = 1
+      goto [endSwapSub]
+    end if
     if val(names$(currentUserIndex, 1)) mod 5 = 0 then
+      input "Would the current user like to withdraw their current winnings? Yes/No: "; giveUp$
+      if lower$(giveUp$) = "yes" then
+        print "You won $"; 2^val(names$(currentUserIndex, 1)); "."
+        names$(currentUserIndex, 1) = "-1"
+      end if
       call swapPlayers
     end if
     timer 1000, [waiting]
@@ -197,6 +210,7 @@ sub swapPlayers
 end sub
 
 sub millionDollarQuestion
+  print "35010 copies of Liberty Basic Silver Edition Question:"
   print "Which of the following is not a valid price for a Liberty Basic installation tier?"
   print "a) $19.95"
   print "b) $29.95"
