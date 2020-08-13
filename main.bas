@@ -78,8 +78,16 @@ end sub
 end
 sub querySub
   questionIndex = int(rnd(1) * 40)
+  noQuestions = 0
   while questions$(questionIndex, 6) = "1"
     questionIndex = int(rnd(1) * 40)
+    noQuestions = noQuestions + 1
+    if noQuestions = 50 then
+      noQuestions = 0
+      for a = 0 to 39
+        questions$(a, 6) = "0"
+      next
+    end if
   wend
   print questions$(questionIndex, 1)
   for i = 1 to 5
@@ -121,6 +129,15 @@ sub checkAnswer
       cls
       call reaskQuery
       goto [reCheck]
+    else
+      if lower$(chosenAnswer$) = "help"
+        print "For help, please view readme.md using github."
+        timer 1500, [helped]
+        wait
+        timer 0
+        cls
+        goto reCheck
+      end if
     end if
   end if
   select case lower$(chosenAnswer$)

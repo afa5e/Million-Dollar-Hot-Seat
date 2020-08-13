@@ -1,4 +1,4 @@
-# Million Dollar Hot Seat
+fulfil# Million Dollar Hot Seat
 
 <img src="img/completion-25-orange.svg" /> <img src="img/questions-40-brightgreen.svg" /> <img src="img/language-liberty--basic-red.svg" /> <img src="img/made with-atom-lightgrey.svg" />
 
@@ -9,6 +9,9 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
 ## Contents
 1. [License](#License)
 1. [Installation instructions](#installation-and-executing)
+1. [Usage Instructions](#usage-instructions)
+1. [The Problem](#the-problem)
+1. [FAQ](#faq)
 1. [Answer Key](#answer-key)
 1. [Issues](#issues)
 1. [Code of Conduct](#code-of-conduct)
@@ -41,6 +44,45 @@ The following is a summary of the full do what ~~the fuck~~ you want to but with
   * Move the mouse over to the blue triangle approximately 9 icons from the left on the screen.
   * Select "Run" from the menu bar and then select "Run" from the dropdown menu.
   * Simultaneously press ```shift``` and ```F5```.
+
+[Return to the top.](#million-dollar-hot-seat)
+
+## Usage instructions
+  1. To participate in the game please input your name and pass the device onto the next player.
+  1. After all four players have registered, the system should display the current user and their question. To answer: type "a", "A", "b", "B", "c", "C", "d" or "D" and then press enter.
+  1. In the event of a question that is too difficult, the current user may have the ability to swap to the next player and thereby pass the current question by typing "swap" or any variation of the word in any combination of both uppercase and lowercase and press enter.
+  1. To access the help system within the program type "help" or any uppercase or lowercase variations of the word and press enter.
+
+[Return to the top.](#million-dollar-hot-seat)
+
+## The problem
+The problem that this piece of magnificent software was designed to solve was an undisclosed customer wanted a system that could emulate a popular game, Million Dollar Hot Seat. This included a bank comprised of a minimum of 40 questions, room for four players, the ability for users to skip or swap out of the hot seat and to potentially win 35010 copies of Liberty Basic Silver Edition, worth 2^20 USD.
+[Return to the top.](#million-dollar-hot-seat)
+
+## FAQ
+  1. Why do I lose the game after one incorrect answer?
+
+     The game is designed to be a high risk, exponentially increasing at a rate of $2^x × ln(2) where x is the round number reward. This means that to win the 35010 copies of Liberty Basic Silver Edition, the user must get all 21 questions correct.
+
+  2. Why are the questions more hardware orientated?
+
+     Why not? Hardware and software must both function together for a computer system to work at all.
+
+  3. Why does Liberty Basic force me to wait up to an infinite time period upon opening the file?
+
+     Liberty Basic is known to hold the user's valuable time ransom in exchange for the low price of $29.95 or $49.95 to upgrade to a higher tier that hopefully waives the waiting period. Alternatively, simply uninstall and reinstall Liberty Basic on your device.
+
+  4. How or where can I purchase a copy of this software for commercial use?
+
+     This software will be released to the general public for any usage including commercial usage on or after the 14th of August 2020 (14/8/2020) without any licenses for no charge.
+
+  5. Where can I collect my prize?
+
+     The prize has already been collected.
+
+  6. Why is this FAQ not helpful?
+
+     The author of this document did not anticipate any questions regarding this program that is frequently asked.
 
 [Return to the top.](#million-dollar-hot-seat)
 
@@ -103,7 +145,14 @@ The following is a summary of the full do what ~~the fuck~~ you want to but with
 ## Social and Ethical issues
   For the full Social and Ethical Issues please see [this](https://github.com/afa5e/Million-Dollar-Hot-Seat/blob/master/Documentation/Social-Ethical-Issues.md).
 
-  The social and ethical issues of a game show relying on the competitors intelligence and their prior knowledge of the topic of software and electronic hardware:
-  * Is it ethically and morally correct to place two or more people against each other?
+  Given that the game is designed for four players to compete for 2^20 USD in the context of a game show. The following social and ethical issues come into play:
+  * Should the order of the player be used as a form of a tie breaker in the event of two or more players being able to win the top prize? i.e. if player 1, who is the first to arrive at the final round have precedence over player 2, who would have been second to reach the same round. This is easily solved by using a system that can synchronously process the inputs of all four users instead of asynchronously (multithreading or single threaded execution).Z This solution may not be implementable with Liberty Basic.
+  * Should the questions offered to the users gradually increase in difficulty or be randomly selected to give each user a statistically fair game but may instead eliminate some users earlier than others. Both cases can be solved with Liberty Basic; either by passing the output of a randomly generated float into an exponential equation that returns a value that has a higher probability to return lower numbers than higher numbers; then select questions from an array that is sorted in difficulty. Or, a simple random 1 to 40 number generator.
+
+  Social and Ethical Issues relating to the software engineer.
+  * Should the software engineer be allowed to participate in the game, with knowledge of the internal logic that may give them an unfair advantage over others? No.
+  * Should a backdoor into the final round remain within the final code for release? This backdoor should remain in the event that the gamemaster chooses to use it.
+  * Is it the software engineer's responsibility to continue to offer support for the consumer for an indefinite period of time? Definitely not.
+  * Is the Software engineer responsible for ensuring that all users who may or may not have a disability or other circumstance that may cause disadvantage while using the software be recognised and be given an alternative? Yes, but the software engineer is only morally bound to fulfil this ease of use or accessibility system. This may include limiting the use of colours that may result in colour blind users having difficulty; or interactions that may cause repeated strain injury.
 
   [Return to the top.](#million-dollar-hot-seat)
