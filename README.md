@@ -169,7 +169,7 @@ June 19th|Remembered to update gantt chart.
 June 20th|Updated question answer in readme file.
 June 21st|Added various functions to the gantt chart to display elapsed time for parts 1 and 2.
 June 22nd|Added logic that starts to split raw questions.txt into an array.
-June 23rd|Added funding pages to the repo in a futile attempt to procure funds to contine.
+June 23rd|Added funding pages to the repo in a futile attempt to procure funds to continue.
 June 24th|Changed license to a single paged WTFYW from GNU aGPL v3.0.
 June 24th|Tried to fix GFM rendering of the sponsorship links, gave up and used HTML tags instead.
 June 25th|Github convinced me to add a code of conduct.
@@ -186,4 +186,4 @@ August 5th|Added ability to swap players.
 August 7th|Progress.
 August 8th-12th|Almost finished main.bas; DFD, CD, Changed gantt chart to reflect new schedule.
 August 13th|Logbook formatted to look good, gantt chart almost at 100% completion, data dictionary has been finished, IPO migrated to microsoft access and finished social and ethical issues.
-August 14th|Final QC of main.bas, screenshots/videos, checked all files. Go for marking?
+August 14th|Final QC of main.bas, screenshots/videos, final evaluation completed, checked all files. Go for marking?
