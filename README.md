@@ -17,6 +17,7 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
 1. [Testing](#testing)
 1. [Code of Conduct](#code-of-conduct)
 1. [Social and Ethical issues](#social-and-ethical-issues)
+1. [Logbook](#logbook)
 1. [Source code](#source-code)
 1. [Sources](#sources)
 
