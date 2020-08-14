@@ -21,8 +21,8 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
 
 ## License
 The following is a summary of the full do what the ~~fuck~~ you want to but with conditions public license. For the full license, please view the license file [here](/LICENSE)
-
-DO WHAT THE FUCK YOU WANT TO BUT WITH CONDITIONS PUBLIC LICENSE
+```
+DO WHAT THE **** YOU WANT TO BUT WITH CONDITIONS PUBLIC LICENSE
                   Version 2, December 2004
 
 Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>; changes made
@@ -32,11 +32,11 @@ Everyone is permitted to copy and distribute verbatim or modified
 copies of this license document, and changing it is allowed as long
 as the name is changed.
  
-           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+           DO WHAT THE **** YOU WANT TO PUBLIC LICENSE
   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
- 0. You just DO WHAT THE FUCK YOU WANT TO.
-
+ 0. You just DO WHAT THE **** YOU WANT TO.
+```
 [Return to the top.](#million-dollar-hot-seat)
 
 ## Installation and Executing
@@ -127,7 +127,7 @@ The problem that this piece of magnificent software was designed to solve was an
   Which of the following may cause "Spaghetti code"?|GOTO
   Which of the following is not used as a symbol in flowcharts?|Pentagon
   Which of the following is not a logic operator?|~=
-  Which of the following is not a valid example of a boolean operation?|x~~y
+  Which of the following is not a valid example of a boolean operation?|x(tilde)(tilde)y
   The term "pixel" is an abbreviation of?|Picture element
   The theory that processing power would double every 18 months is called?|Moore's law
   The rate that the fetch-execute cycle occurs is governed by which system or entity?|System clock
