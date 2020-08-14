@@ -17,6 +17,7 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
 1. [Testing](#testing)
 1. [Code of Conduct](#code-of-conduct)
 1. [Social and Ethical issues](#social-and-ethical-issues)
+1. [Source code](#source-code)
 1. [Sources](#sources)
 
 ## License
@@ -168,45 +169,57 @@ The problem that this piece of magnificent software was designed to solve was an
   [Return to the top.](#million-dollar-hot-seat)
 
 ## Logbook
-Time | Task
-:---:|:---:
-June 15th|Intial commit: Added files for gantt chart and rough dates; readme, including instructions. Fixed formatting of GFM in the readme file.
-June 16th|Added questions file and updated Gantt Flowcharts
-June 17th|Started code to import questions file, completed 40 questions, and tried to fix GFM formatting of images?
-June 18th|Updated Gantt chart for the previous day, reformatted questions.txt to suit the code, and corrected answer for one question.
-June 19th|Remembered to update gantt chart.
-June 20th|Updated question answer in readme file.
-June 21st|Added various functions to the gantt chart to display elapsed time for parts 1 and 2.
-June 22nd|Added logic that starts to split raw questions.txt into an array.
-June 23rd|Added funding pages to the repo in a futile attempt to procure funds to continue.
-June 24th|Changed license to a single paged WTFYW from GNU aGPL v3.0.
-June 24th|Tried to fix GFM rendering of the sponsorship links, gave up and used HTML tags instead.
-June 25th|Github convinced me to add a code of conduct.
-June 26th|Added IPO file and started social and ethical issues. Moved documentation into documentation folder. Finally finished questions.txt import to array logic. Also added a table of contents.
-June 29th|Added more images that broke GFM page formatting. Rearranged images to the correct location and added wechat donations.
-June 30th|Fixed punctuation in the questions?
-July 1st|Checked all my sponsorship pages of any donations: none. Took a three week break.
-July 21st|Tried to merge some branches.
-July 23rd|Remembered that a gantt chart existed! Broke my branch network some more.
-July 25th|Tried to fix my branches but instead worsened the problem. Fixed?
-July 27th|Added 20 more liberty basic questions—might not be used.
-August 4th|Started main game loop and other subroutines/functions.
-August 5th|Added ability to swap players.
-August 7th|Progress.
-August 8th-12th|Almost finished main.bas; DFD, CD, Changed gantt chart to reflect new schedule.
-August 13th|Logbook formatted to look good, gantt chart almost at 100% completion, data dictionary has been finished, IPO migrated to microsoft access and finished social and ethical issues.
-August 14th|Final QC of main.bas, screenshots/videos, final evaluation completed, checked all files. Go for marking?
+  Time | Task
+  :---:|:---:
+  June 15th|Intial commit: Added files for gantt chart and rough dates; readme, including instructions. Fixed formatting of GFM in the readme file.
+  June 16th|Added questions file and updated Gantt Flowcharts
+  June 17th|Started code to import questions file, completed 40 questions, and tried to fix GFM formatting of images?
+  June 18th|Updated Gantt chart for the previous day, reformatted questions.txt to suit the code, and corrected answer for one question.
+  June 19th|Remembered to update gantt chart.
+  June 20th|Updated question answer in readme file.
+  June 21st|Added various functions to the gantt chart to display elapsed time for parts 1 and 2.
+  June 22nd|Added logic that starts to split raw questions.txt into an array.
+  June 23rd|Added funding pages to the repo in a futile attempt to procure funds to continue.
+  June 24th|Changed license to a single paged WTFYW from GNU aGPL v3.0.
+  June 24th|Tried to fix GFM rendering of the sponsorship links, gave up and used HTML tags instead.
+  June 25th|Github convinced me to add a code of conduct.
+  June 26th|Added IPO file and started social and ethical issues. Moved documentation into documentation folder. Finally finished questions.txt import to array logic. Also added a table of contents.
+  June 29th|Added more images that broke GFM page formatting. Rearranged images to the correct location and added wechat donations.
+  June 30th|Fixed punctuation in the questions?
+  July 1st|Checked all my sponsorship pages of any donations: none. Took a three week break.
+  July 21st|Tried to merge some branches.
+  July 23rd|Remembered that a gantt chart existed! Broke my branch network some more.
+  July 25th|Tried to fix my branches but instead worsened the problem. Fixed?
+  July 27th|Added 20 more liberty basic questions—might not be used.
+  August 4th|Started main game loop and other subroutines/functions.
+  August 5th|Added ability to swap players.
+  August 7th|Progress.
+  August 8th-12th|Almost finished main.bas; DFD, CD, Changed gantt chart to reflect new schedule.
+  August 13th|Logbook formatted to look good, gantt chart almost at 100% completion, data dictionary has been finished, IPO migrated to microsoft access and finished social and ethical issues.
+  August 14th|Final QC of main.bas, screenshots/videos, final evaluation completed, checked all files. Go for marking?
+  August 14th Period 4|Go.
+
+  [Return to the top.](#million-dollar-hot-seat)
 
 ## Evaluation
+  Criteria|Comments
+  :---:|:--:
+  Ergonomics|User(s) experienced of strain in their left thumb while reaching the "b" key while having the pointer and fourth finger on "a" and "d".
+  Quality|10/10, the program has no evidence of unexpected shutdowns or other interruptions.
+  Algorithm|The software solves the problem with efficiency.
+  Positives|The questions include a wide range of difficulties; the user deos not need to use the correct case.
+  Negatives|The text UI could have some improvements, but is functional — Brutalist design. Very little closed beta testers were willing to trial the software.
+  Improvements|Better text UI or a GUI with a dark theme t reduce eye strain, possible keybindings change to reduce De Quervain's Tenosynovitis.
+  [Return to the top.](#million-dollar-hot-seat)
 
-Criteria|Comments
-:---:|:--:
-Ergonomics|User(s) experienced of strain in their left thumb while reaching the "b" key while having the pointer and fourth finger on "a" and "d".
-Quality|10/10, the program has no evidence of unexpected shutdowns or other interruptions.
-Algorithm|The software solves the problem with efficiency.
-Positives|The questions include a wide range of difficulties; the user deos not need to use the correct case.
-Negatives|The text UI could have some improvements, but is functional — Brutalist design. Very little closed beta testers were willing to trial the software.
-Improvements|Better text UI or a GUI with a dark theme t reduce eye strain, possible keybindings change to reduce De Quervain's Tenosynovitis.
+## Source code
+  <img src="img/img1.png" />
+  <img src="img/img2.png" />
+  <img src="img/img3.png" />
+  <img src="img/img4.png" />
+  <img src="img/img5.png" />
+  [Return to the top.](#million-dollar-hot-seat)
 
 ## Sources
-Wikipedia, class textbook, brain, https://www.google.com/search?q=gamers+thumb&rlz=1C1GCEA_enAU914AU914&oq=gamers+thumb&aqs=chrome..69i57j0l7.1839j0j1&sourceid=chrome&{google:instantExtendedEnabledParameter}ie=UTF-8
+  Wikipedia, class textbook, brain, https://www.google.com/search?q=gamers+thumb&rlz=1C1GCEA_enAU914AU914&oq=gamers+thumb&aqs=chrome..69i57j0l7.1839j0j1&sourceid=chrome&{google:instantExtendedEnabledParameter}ie=UTF-8
+  [Return to the top.](#million-dollar-hot-seat)
