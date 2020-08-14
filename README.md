@@ -17,6 +17,7 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
 1. [Testing](#testing)
 1. [Code of Conduct](#code-of-conduct)
 1. [Social and Ethical issues](#social-and-ethical-issues)
+1. [Sources](#sources)
 
 ## License
 The following is a summary of the full do what ~~the fuck~~ you want to but with conditions public license. For the full license, please view the license file [here](/LICENSE)
@@ -195,3 +196,17 @@ August 7th|Progress.
 August 8th-12th|Almost finished main.bas; DFD, CD, Changed gantt chart to reflect new schedule.
 August 13th|Logbook formatted to look good, gantt chart almost at 100% completion, data dictionary has been finished, IPO migrated to microsoft access and finished social and ethical issues.
 August 14th|Final QC of main.bas, screenshots/videos, final evaluation completed, checked all files. Go for marking?
+
+## Evaluation
+
+Criteria|Comments
+:---:|:--:
+Ergonomics|User(s) experienced of strain in their left thumb while reaching the "b" key while having the pointer and fourth finger on "a" and "d".
+Quality|10/10, the program has no evidence of unexpected shutdowns or other interruptions.
+Algorithm|The software solves the problem with efficiency.
+Positives|The questions include a wide range of difficulties; the user deos not need to use the correct case.
+Negatives|The text UI could have some improvements, but is functional — Brutalist design. Very little closed beta testers were willing to trial the software.
+Improvements|Better text UI or a GUI with a dark theme t reduce eye strain, possible keybindings change to reduce De Quervain's Tenosynovitis.
+
+## Sources
+Wikipedia, class textbook, brain, https://www.google.com/search?q=gamers+thumb&rlz=1C1GCEA_enAU914AU914&oq=gamers+thumb&aqs=chrome..69i57j0l7.1839j0j1&sourceid=chrome&{google:instantExtendedEnabledParameter}ie=UTF-8
