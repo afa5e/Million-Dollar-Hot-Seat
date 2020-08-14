@@ -211,6 +211,7 @@ The problem that this piece of magnificent software was designed to solve was an
   Positives|The questions include a wide range of difficulties; the user deos not need to use the correct case.
   Negatives|The text UI could have some improvements, but is functional — Brutalist design. Very little closed beta testers were willing to trial the software.
   Improvements|Better text UI or a GUI with a dark theme t reduce eye strain, possible keybindings change to reduce De Quervain's Tenosynovitis.
+  Time management|I took a 3-4 week break in the middle
   [Return to the top.](#million-dollar-hot-seat)
 
 ## Source code
