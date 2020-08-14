@@ -219,8 +219,10 @@ The problem that this piece of magnificent software was designed to solve was an
   <img src="img/img3.PNG" />
   <img src="img/img4.PNG" />
   <img src="img/img5.PNG" />
+  
   [Return to the top.](#million-dollar-hot-seat)
 
 ## Sources
-  Wikipedia, class textbook, brain, https://www.google.com/search?q=gamers+thumb&rlz=1C1GCEA_enAU914AU914&oq=gamers+thumb&aqs=chrome..69i57j0l7.1839j0j1&sourceid=chrome&{google:instantExtendedEnabledParameter}ie=UTF-8
+  Wikipedia, class textbook, brain, [Gamers' Thumb](https://www.google.com/search?q=gamers+thumb&rlz=1C1GCEA_enAU914AU914&oq=gamers+thumb&aqs=chrome..69i57j0l7.1839j0j1&sourceid=chrome&{google:instantExtendedEnabledParameter}ie=UTF-8)
+  
   [Return to the top.](#million-dollar-hot-seat)
