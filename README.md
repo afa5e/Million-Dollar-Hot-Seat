@@ -214,11 +214,11 @@ The problem that this piece of magnificent software was designed to solve was an
   [Return to the top.](#million-dollar-hot-seat)
 
 ## Source code
-  <img src="img/img1.png" />
-  <img src="img/img2.png" />
-  <img src="img/img3.png" />
-  <img src="img/img4.png" />
-  <img src="img/img5.png" />
+  <img src="img/img1.PNG" />
+  <img src="img/img2.PNG" />
+  <img src="img/img3.PNG" />
+  <img src="img/img4.PNG" />
+  <img src="img/img5.PNG" />
   [Return to the top.](#million-dollar-hot-seat)
 
 ## Sources
