@@ -21,20 +21,20 @@ Million Dollar Hot Seat (Option 4) was the chosen task for the Software Design a
 ## License
 The following is a summary of the full do what ~~the fuck~~ you want to but with conditions public license. For the full license, please view the license file [here](/LICENSE)
 
-1. Viewing, opening or otherwise allowing the contents of any
-  files, in any form, to be transferred, copied, paraphrased
-  or otherwise give any entity knowledge of the contents,
-  excluding the README.md and LICENSE file, is NOT allowed
-  without prior written consent by the author.
+DO WHAT THE FUCK YOU WANT TO BUT WITH CONDITIONS PUBLIC LICENSE
+                  Version 2, December 2004
 
-1. The software must not be used in any form for any purposes,
-  including but is not limited to educational purposes; without
-  prior written consent from the author.
+Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>; changes made
+by "Afa5e" <www.instagram.com/afa5e/>
 
-1. To read, paraphrase, copy, transmit, retransmit, download, fax,
-  fork or otherwise make or distribute a copy of the source code or
-  other material covered by this license is not allowed without
-  prior written consent from the author.
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long
+as the name is changed.
+ 
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+ 0. You just DO WHAT THE FUCK YOU WANT TO.
 
 [Return to the top.](#million-dollar-hot-seat)
 
